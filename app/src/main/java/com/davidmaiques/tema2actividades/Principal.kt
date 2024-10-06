@@ -5,6 +5,7 @@ import kotlin.math.roundToInt
 fun main() {
     uno()
     dos()
+    
 }
 
 fun dos() {
@@ -19,6 +20,8 @@ fun dos() {
     println("El promedio es ${redondear}")
     var redondear2= ((resultado * 100).roundToInt() / 100.0).toFloat()
     println(redondear2)
+
+
 
 
 }
